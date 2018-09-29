@@ -1,0 +1,2411 @@
+Determining if the function floor exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2947498174/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2947498174.dir/build.make CMakeFiles/cmTryCompileExec2947498174.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2947498174.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTryCompileExec2947498174.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+<命令行>:0:23: 警告：与内建函数‘floor’类型冲突 [默认启用]
+/usr/share/cmake/Modules/CheckFunctionExists.c:3:6: 附注：in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2947498174
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2947498174.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=floor    CMakeFiles/cmTryCompileExec2947498174.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2947498174 -rdynamic 
+CMakeFiles/cmTryCompileExec2947498174.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘floor’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec2947498174] 错误 1
+gmake: *** [cmTryCompileExec2947498174/fast] 错误 2
+
+
+Determining if the function crypt exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2566394176/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2566394176.dir/build.make CMakeFiles/cmTryCompileExec2566394176.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2566394176.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=crypt   -o CMakeFiles/cmTryCompileExec2566394176.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2566394176
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2566394176.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=crypt    CMakeFiles/cmTryCompileExec2566394176.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2566394176 -rdynamic 
+CMakeFiles/cmTryCompileExec2566394176.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘crypt’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec2566394176] 错误 1
+gmake: *** [cmTryCompileExec2566394176/fast] 错误 2
+
+
+Determining if the function dlopen exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2566555317/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2566555317.dir/build.make CMakeFiles/cmTryCompileExec2566555317.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2566555317.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTryCompileExec2566555317.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2566555317
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2566555317.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=dlopen    CMakeFiles/cmTryCompileExec2566555317.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2566555317 -rdynamic 
+CMakeFiles/cmTryCompileExec2566555317.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘dlopen’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec2566555317] 错误 1
+gmake: *** [cmTryCompileExec2566555317/fast] 错误 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1343909209/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1343909209.dir/build.make CMakeFiles/cmTryCompileExec1343909209.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1343909209.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1343909209.dir/CheckSymbolExists.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1343909209
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1343909209.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec1343909209.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1343909209 -rdynamic 
+CMakeFiles/cmTryCompileExec1343909209.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec1343909209] 错误 1
+gmake: *** [cmTryCompileExec1343909209/fast] 错误 2
+
+File /opt/inception-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec291509804/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec291509804.dir/build.make CMakeFiles/cmTryCompileExec291509804.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec291509804.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec291509804.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec291509804
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec291509804.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec291509804.dir/CheckFunctionExists.c.o  -o cmTryCompileExec291509804 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec291509804] 错误 1
+gmake: *** [cmTryCompileExec291509804/fast] 错误 2
+
+
+Determining if files cxxabi.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2959217906/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2959217906.dir/build.make CMakeFiles/cmTryCompileExec2959217906.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2959217906.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2959217906.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: 致命错误：cxxabi.h：没有那个文件或目录
+ #include <cxxabi.h>
+                    ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2959217906.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec2959217906/fast] 错误 2
+
+Source:
+/* */
+#include <cxxabi.h>
+
+
+int main(){return 0;}
+
+Determining if files floatingpoint.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1614220337/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1614220337.dir/build.make CMakeFiles/cmTryCompileExec1614220337.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1614220337.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1614220337.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:27: 致命错误：floatingpoint.h：没有那个文件或目录
+ #include <floatingpoint.h>
+                           ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1614220337.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec1614220337/fast] 错误 2
+
+Source:
+/* */
+#include <floatingpoint.h>
+
+
+int main(){return 0;}
+
+Determining if files ieeefp.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2380536508/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2380536508.dir/build.make CMakeFiles/cmTryCompileExec2380536508.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2380536508.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2380536508.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: 致命错误：ieeefp.h：没有那个文件或目录
+ #include <ieeefp.h>
+                    ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2380536508.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec2380536508/fast] 错误 2
+
+Source:
+/* */
+#include <ieeefp.h>
+
+
+int main(){return 0;}
+
+Determining if files ndir.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3540385510/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3540385510.dir/build.make CMakeFiles/cmTryCompileExec3540385510.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3540385510.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec3540385510.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:18: 致命错误：ndir.h：没有那个文件或目录
+ #include <ndir.h>
+                  ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3540385510.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec3540385510/fast] 错误 2
+
+Source:
+/* */
+#include <ndir.h>
+
+
+int main(){return 0;}
+
+Determining if files port.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2700840443/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2700840443.dir/build.make CMakeFiles/cmTryCompileExec2700840443.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2700840443.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2700840443.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:18: 致命错误：port.h：没有那个文件或目录
+ #include <port.h>
+                  ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2700840443.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec2700840443/fast] 错误 2
+
+Source:
+/* */
+#include <port.h>
+
+
+int main(){return 0;}
+
+Determining if files select.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3008179561/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3008179561.dir/build.make CMakeFiles/cmTryCompileExec3008179561.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3008179561.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec3008179561.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: 致命错误：select.h：没有那个文件或目录
+ #include <select.h>
+                    ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3008179561.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec3008179561/fast] 错误 2
+
+Source:
+/* */
+#include <select.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/ndir.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2912193861/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2912193861.dir/build.make CMakeFiles/cmTryCompileExec2912193861.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2912193861.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2912193861.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: 致命错误：sys/ndir.h：没有那个文件或目录
+ #include <sys/ndir.h>
+                      ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2912193861.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec2912193861/fast] 错误 2
+
+Source:
+/* */
+#include <sys/ndir.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/pte.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2506753106/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2506753106.dir/build.make CMakeFiles/cmTryCompileExec2506753106.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2506753106.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2506753106.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: 致命错误：sys/pte.h：没有那个文件或目录
+ #include <sys/pte.h>
+                     ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2506753106.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec2506753106/fast] 错误 2
+
+Source:
+/* */
+#include <sys/pte.h>
+
+
+int main(){return 0;}
+
+Determining if files synch.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2890598095/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2890598095.dir/build.make CMakeFiles/cmTryCompileExec2890598095.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2890598095.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2890598095.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:19: 致命错误：synch.h：没有那个文件或目录
+ #include <synch.h>
+                   ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2890598095.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec2890598095/fast] 错误 2
+
+Source:
+/* */
+#include <synch.h>
+
+
+int main(){return 0;}
+
+Determining if files sysent.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1813326350/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1813326350.dir/build.make CMakeFiles/cmTryCompileExec1813326350.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1813326350.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1813326350.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: 致命错误：sysent.h：没有那个文件或目录
+ #include <sysent.h>
+                    ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1813326350.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec1813326350/fast] 错误 2
+
+Source:
+/* */
+#include <sysent.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/fpu.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec313385916/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec313385916.dir/build.make CMakeFiles/cmTryCompileExec313385916.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec313385916.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec313385916.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: 致命错误：sys/fpu.h：没有那个文件或目录
+ #include <sys/fpu.h>
+                     ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec313385916.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec313385916/fast] 错误 2
+
+Source:
+/* */
+#include <sys/fpu.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/malloc.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4055547809/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4055547809.dir/build.make CMakeFiles/cmTryCompileExec4055547809.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4055547809.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec4055547809.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: 致命错误：sys/malloc.h：没有那个文件或目录
+ #include <sys/malloc.h>
+                        ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec4055547809.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec4055547809/fast] 错误 2
+
+Source:
+/* */
+#include <sys/malloc.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/stream.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2517621385/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2517621385.dir/build.make CMakeFiles/cmTryCompileExec2517621385.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2517621385.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2517621385.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: 致命错误：sys/stream.h：没有那个文件或目录
+ #include <sys/stream.h>
+                        ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2517621385.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec2517621385/fast] 错误 2
+
+Source:
+/* */
+#include <sys/stream.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/termcap.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3020226077/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3020226077.dir/build.make CMakeFiles/cmTryCompileExec3020226077.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3020226077.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec3020226077.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: 致命错误：sys/termcap.h：没有那个文件或目录
+ #include <sys/termcap.h>
+                         ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3020226077.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec3020226077/fast] 错误 2
+
+Source:
+/* */
+#include <sys/termcap.h>
+
+
+int main(){return 0;}
+
+Determining if files termbits.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2102010076/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2102010076.dir/build.make CMakeFiles/cmTryCompileExec2102010076.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2102010076.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2102010076.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: 致命错误：termbits.h：没有那个文件或目录
+ #include <termbits.h>
+                      ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2102010076.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec2102010076/fast] 错误 2
+
+Source:
+/* */
+#include <termbits.h>
+
+
+int main(){return 0;}
+
+Determining if files varargs.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec797506560/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec797506560.dir/build.make CMakeFiles/cmTryCompileExec797506560.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec797506560.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec797506560.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:0:
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/varargs.h:4:2: 错误：#error "GCC no longer implements <varargs.h>."
+ #error "GCC no longer implements <varargs.h>."
+  ^
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/varargs.h:5:2: 错误：#error "Revise your code to use <stdarg.h>."
+ #error "Revise your code to use <stdarg.h>."
+  ^
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec797506560.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec797506560/fast] 错误 2
+
+Source:
+/* */
+#include <varargs.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/utime.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3339446539/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3339446539.dir/build.make CMakeFiles/cmTryCompileExec3339446539.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3339446539.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec3339446539.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: 致命错误：sys/utime.h：没有那个文件或目录
+ #include <sys/utime.h>
+                       ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3339446539.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec3339446539/fast] 错误 2
+
+Source:
+/* */
+#include <sys/utime.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/vadvise.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2069595452/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2069595452.dir/build.make CMakeFiles/cmTryCompileExec2069595452.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2069595452.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2069595452.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: 致命错误：sys/vadvise.h：没有那个文件或目录
+ #include <sys/vadvise.h>
+                         ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2069595452.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec2069595452/fast] 错误 2
+
+Source:
+/* */
+#include <sys/vadvise.h>
+
+
+int main(){return 0;}
+
+Determining if files vis.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec811078596/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec811078596.dir/build.make CMakeFiles/cmTryCompileExec811078596.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec811078596.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec811078596.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:17: 致命错误：vis.h：没有那个文件或目录
+ #include <vis.h>
+                 ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec811078596.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec811078596/fast] 错误 2
+
+Source:
+/* */
+#include <vis.h>
+
+
+int main(){return 0;}
+
+Determining if files sasl/sasl.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec899283197/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec899283197.dir/build.make CMakeFiles/cmTryCompileExec899283197.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec899283197.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec899283197.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: 致命错误：sasl/sasl.h：没有那个文件或目录
+ #include <sasl/sasl.h>
+                       ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec899283197.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec899283197/fast] 错误 2
+
+Source:
+/* */
+#include <sasl/sasl.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/devpoll.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1997797101/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1997797101.dir/build.make CMakeFiles/cmTryCompileExec1997797101.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1997797101.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1997797101.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: 致命错误：sys/devpoll.h：没有那个文件或目录
+ #include <sys/devpoll.h>
+                         ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1997797101.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec1997797101/fast] 错误 2
+
+Source:
+/* */
+#include <sys/devpoll.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/devpoll.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2051456337/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2051456337.dir/build.make CMakeFiles/cmTryCompileExec2051456337.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2051456337.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2051456337.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: 致命错误：sys/devpoll.h：没有那个文件或目录
+ #include <sys/devpoll.h>
+                         ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2051456337.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec2051456337/fast] 错误 2
+
+Source:
+/* */
+#include <sys/devpoll.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/event.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec471981766/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec471981766.dir/build.make CMakeFiles/cmTryCompileExec471981766.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec471981766.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec471981766.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: 致命错误：sys/event.h：没有那个文件或目录
+ #include <sys/event.h>
+                       ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec471981766.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec471981766/fast] 错误 2
+
+Source:
+/* */
+#include <sys/event.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/ptem.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3119046853/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3119046853.dir/build.make CMakeFiles/cmTryCompileExec3119046853.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3119046853.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec3119046853.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: 致命错误：sys/ptem.h：没有那个文件或目录
+ #include <sys/ptem.h>
+                      ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3119046853.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec3119046853/fast] 错误 2
+
+Source:
+/* */
+#include <sys/ptem.h>
+
+
+int main(){return 0;}
+
+Determining if the function _aligned_malloc exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec982462069/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec982462069.dir/build.make CMakeFiles/cmTryCompileExec982462069.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec982462069.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=_aligned_malloc   -o CMakeFiles/cmTryCompileExec982462069.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec982462069
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec982462069.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=_aligned_malloc    CMakeFiles/cmTryCompileExec982462069.dir/CheckFunctionExists.c.o  -o cmTryCompileExec982462069 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec982462069.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘_aligned_malloc’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec982462069] 错误 1
+gmake: *** [cmTryCompileExec982462069/fast] 错误 2
+
+
+Determining if the function _aligned_free exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4111360365/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4111360365.dir/build.make CMakeFiles/cmTryCompileExec4111360365.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4111360365.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=_aligned_free   -o CMakeFiles/cmTryCompileExec4111360365.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4111360365
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4111360365.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=_aligned_free    CMakeFiles/cmTryCompileExec4111360365.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4111360365 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec4111360365.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘_aligned_free’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec4111360365] 错误 1
+gmake: *** [cmTryCompileExec4111360365/fast] 错误 2
+
+
+Determining if the function aio_read exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1061653551/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1061653551.dir/build.make CMakeFiles/cmTryCompileExec1061653551.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1061653551.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=aio_read   -o CMakeFiles/cmTryCompileExec1061653551.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1061653551
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1061653551.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=aio_read    CMakeFiles/cmTryCompileExec1061653551.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1061653551 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec1061653551.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘aio_read’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec1061653551] 错误 1
+gmake: *** [cmTryCompileExec1061653551/fast] 错误 2
+
+
+Determining if the function printstack exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2856300733/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2856300733.dir/build.make CMakeFiles/cmTryCompileExec2856300733.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2856300733.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=printstack   -o CMakeFiles/cmTryCompileExec2856300733.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2856300733
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2856300733.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=printstack    CMakeFiles/cmTryCompileExec2856300733.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2856300733 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec2856300733.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘printstack’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec2856300733] 错误 1
+gmake: *** [cmTryCompileExec2856300733/fast] 错误 2
+
+
+Determining if the function bmove exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4238830625/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4238830625.dir/build.make CMakeFiles/cmTryCompileExec4238830625.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4238830625.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=bmove   -o CMakeFiles/cmTryCompileExec4238830625.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4238830625
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4238830625.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=bmove    CMakeFiles/cmTryCompileExec4238830625.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4238830625 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec4238830625.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘bmove’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec4238830625] 错误 1
+gmake: *** [cmTryCompileExec4238830625/fast] 错误 2
+
+
+Determining if the function directio exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1572395707/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1572395707.dir/build.make CMakeFiles/cmTryCompileExec1572395707.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1572395707.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=directio   -o CMakeFiles/cmTryCompileExec1572395707.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1572395707
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1572395707.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=directio    CMakeFiles/cmTryCompileExec1572395707.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1572395707 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec1572395707.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘directio’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec1572395707] 错误 1
+gmake: *** [cmTryCompileExec1572395707/fast] 错误 2
+
+
+Determining if the function _doprnt exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2456529736/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2456529736.dir/build.make CMakeFiles/cmTryCompileExec2456529736.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2456529736.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=_doprnt   -o CMakeFiles/cmTryCompileExec2456529736.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2456529736
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2456529736.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=_doprnt    CMakeFiles/cmTryCompileExec2456529736.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2456529736 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec2456529736.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘_doprnt’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec2456529736] 错误 1
+gmake: *** [cmTryCompileExec2456529736/fast] 错误 2
+
+
+Determining if the function compress exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec928179787/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec928179787.dir/build.make CMakeFiles/cmTryCompileExec928179787.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec928179787.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=compress   -o CMakeFiles/cmTryCompileExec928179787.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec928179787
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec928179787.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=compress    CMakeFiles/cmTryCompileExec928179787.dir/CheckFunctionExists.c.o  -o cmTryCompileExec928179787 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec928179787.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘compress’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec928179787] 错误 1
+gmake: *** [cmTryCompileExec928179787/fast] 错误 2
+
+
+Determining if the function fconvert exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3230663271/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3230663271.dir/build.make CMakeFiles/cmTryCompileExec3230663271.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3230663271.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=fconvert   -o CMakeFiles/cmTryCompileExec3230663271.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3230663271
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3230663271.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=fconvert    CMakeFiles/cmTryCompileExec3230663271.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3230663271 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec3230663271.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘fconvert’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec3230663271] 错误 1
+gmake: *** [cmTryCompileExec3230663271/fast] 错误 2
+
+
+Determining if the function fpsetmask exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1908549377/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1908549377.dir/build.make CMakeFiles/cmTryCompileExec1908549377.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1908549377.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=fpsetmask   -o CMakeFiles/cmTryCompileExec1908549377.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1908549377
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1908549377.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=fpsetmask    CMakeFiles/cmTryCompileExec1908549377.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1908549377 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec1908549377.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘fpsetmask’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec1908549377] 错误 1
+gmake: *** [cmTryCompileExec1908549377/fast] 错误 2
+
+
+Determining if the function gethrtime exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3494185090/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3494185090.dir/build.make CMakeFiles/cmTryCompileExec3494185090.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3494185090.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gethrtime   -o CMakeFiles/cmTryCompileExec3494185090.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3494185090
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3494185090.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gethrtime    CMakeFiles/cmTryCompileExec3494185090.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3494185090 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec3494185090.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘gethrtime’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec3494185090] 错误 1
+gmake: *** [cmTryCompileExec3494185090/fast] 错误 2
+
+
+Determining if the function getpassphrase exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1171433971/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1171433971.dir/build.make CMakeFiles/cmTryCompileExec1171433971.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1171433971.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=getpassphrase   -o CMakeFiles/cmTryCompileExec1171433971.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1171433971
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1171433971.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=getpassphrase    CMakeFiles/cmTryCompileExec1171433971.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1171433971 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec1171433971.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘getpassphrase’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec1171433971] 错误 1
+gmake: *** [cmTryCompileExec1171433971/fast] 错误 2
+
+
+Determining if the function issetugid exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1455322323/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1455322323.dir/build.make CMakeFiles/cmTryCompileExec1455322323.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1455322323.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=issetugid   -o CMakeFiles/cmTryCompileExec1455322323.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1455322323
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1455322323.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=issetugid    CMakeFiles/cmTryCompileExec1455322323.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1455322323 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec1455322323.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘issetugid’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec1455322323] 错误 1
+gmake: *** [cmTryCompileExec1455322323/fast] 错误 2
+
+
+Determining if the function port_create exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2363872920/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2363872920.dir/build.make CMakeFiles/cmTryCompileExec2363872920.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2363872920.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=port_create   -o CMakeFiles/cmTryCompileExec2363872920.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2363872920
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2363872920.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=port_create    CMakeFiles/cmTryCompileExec2363872920.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2363872920 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec2363872920.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘port_create’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec2363872920] 错误 1
+gmake: *** [cmTryCompileExec2363872920/fast] 错误 2
+
+
+Determining if the function pthread_attr_create exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec370626681/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec370626681.dir/build.make CMakeFiles/cmTryCompileExec370626681.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec370626681.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_attr_create   -o CMakeFiles/cmTryCompileExec370626681.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec370626681
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec370626681.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_attr_create    CMakeFiles/cmTryCompileExec370626681.dir/CheckFunctionExists.c.o  -o cmTryCompileExec370626681 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec370626681.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘pthread_attr_create’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec370626681] 错误 1
+gmake: *** [cmTryCompileExec370626681/fast] 错误 2
+
+
+Determining if the function pthread_condattr_create exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec48252906/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec48252906.dir/build.make CMakeFiles/cmTryCompileExec48252906.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec48252906.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_condattr_create   -o CMakeFiles/cmTryCompileExec48252906.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec48252906
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec48252906.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_condattr_create    CMakeFiles/cmTryCompileExec48252906.dir/CheckFunctionExists.c.o  -o cmTryCompileExec48252906 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec48252906.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘pthread_condattr_create’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec48252906] 错误 1
+gmake: *** [cmTryCompileExec48252906/fast] 错误 2
+
+
+Determining if the function pthread_threadmask exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2677133994/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2677133994.dir/build.make CMakeFiles/cmTryCompileExec2677133994.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2677133994.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_threadmask   -o CMakeFiles/cmTryCompileExec2677133994.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2677133994
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2677133994.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_threadmask    CMakeFiles/cmTryCompileExec2677133994.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2677133994 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec2677133994.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘pthread_threadmask’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec2677133994] 错误 1
+gmake: *** [cmTryCompileExec2677133994/fast] 错误 2
+
+
+Determining if the function pthread_yield_np exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2694876864/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2694876864.dir/build.make CMakeFiles/cmTryCompileExec2694876864.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2694876864.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_yield_np   -o CMakeFiles/cmTryCompileExec2694876864.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2694876864
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2694876864.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_yield_np    CMakeFiles/cmTryCompileExec2694876864.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2694876864 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec2694876864.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘pthread_yield_np’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec2694876864] 错误 1
+gmake: *** [cmTryCompileExec2694876864/fast] 错误 2
+
+
+Determining if the function rwlock_init exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3947389369/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3947389369.dir/build.make CMakeFiles/cmTryCompileExec3947389369.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3947389369.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=rwlock_init   -o CMakeFiles/cmTryCompileExec3947389369.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3947389369
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3947389369.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=rwlock_init    CMakeFiles/cmTryCompileExec3947389369.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3947389369 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec3947389369.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘rwlock_init’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec3947389369] 错误 1
+gmake: *** [cmTryCompileExec3947389369/fast] 错误 2
+
+
+Determining if the function setfd exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3213024547/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3213024547.dir/build.make CMakeFiles/cmTryCompileExec3213024547.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3213024547.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=setfd   -o CMakeFiles/cmTryCompileExec3213024547.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3213024547
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3213024547.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=setfd    CMakeFiles/cmTryCompileExec3213024547.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3213024547 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec3213024547.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘setfd’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec3213024547] 错误 1
+gmake: *** [cmTryCompileExec3213024547/fast] 错误 2
+
+
+Determining if the function sigthreadmask exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec781240990/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec781240990.dir/build.make CMakeFiles/cmTryCompileExec781240990.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec781240990.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=sigthreadmask   -o CMakeFiles/cmTryCompileExec781240990.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec781240990
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec781240990.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=sigthreadmask    CMakeFiles/cmTryCompileExec781240990.dir/CheckFunctionExists.c.o  -o cmTryCompileExec781240990 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec781240990.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘sigthreadmask’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec781240990] 错误 1
+gmake: *** [cmTryCompileExec781240990/fast] 错误 2
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2658616410/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2658616410.dir/build.make CMakeFiles/cmTryCompileExec2658616410.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2658616410.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTryCompileExec2658616410.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2658616410
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2658616410.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=strlcpy    CMakeFiles/cmTryCompileExec2658616410.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2658616410 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec2658616410.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘strlcpy’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec2658616410] 错误 1
+gmake: *** [cmTryCompileExec2658616410/fast] 错误 2
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec182672569/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec182672569.dir/build.make CMakeFiles/cmTryCompileExec182672569.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec182672569.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles/cmTryCompileExec182672569.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec182672569
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec182672569.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=strlcat    CMakeFiles/cmTryCompileExec182672569.dir/CheckFunctionExists.c.o  -o cmTryCompileExec182672569 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec182672569.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘strlcat’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec182672569] 错误 1
+gmake: *** [cmTryCompileExec182672569/fast] 错误 2
+
+
+Determining if the function fgetln exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2801897130/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2801897130.dir/build.make CMakeFiles/cmTryCompileExec2801897130.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2801897130.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=fgetln   -o CMakeFiles/cmTryCompileExec2801897130.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2801897130
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2801897130.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=fgetln    CMakeFiles/cmTryCompileExec2801897130.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2801897130 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec2801897130.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘fgetln’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec2801897130] 错误 1
+gmake: *** [cmTryCompileExec2801897130/fast] 错误 2
+
+
+Determining if the function tell exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2996392017/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2996392017.dir/build.make CMakeFiles/cmTryCompileExec2996392017.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2996392017.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=tell   -o CMakeFiles/cmTryCompileExec2996392017.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2996392017
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2996392017.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=tell    CMakeFiles/cmTryCompileExec2996392017.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2996392017 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec2996392017.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘tell’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec2996392017] 错误 1
+gmake: *** [cmTryCompileExec2996392017/fast] 错误 2
+
+
+Determining if the function thr_setconcurrency exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec286613785/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec286613785.dir/build.make CMakeFiles/cmTryCompileExec286613785.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec286613785.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=thr_setconcurrency   -o CMakeFiles/cmTryCompileExec286613785.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec286613785
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec286613785.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=thr_setconcurrency    CMakeFiles/cmTryCompileExec286613785.dir/CheckFunctionExists.c.o  -o cmTryCompileExec286613785 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec286613785.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘thr_setconcurrency’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec286613785] 错误 1
+gmake: *** [cmTryCompileExec286613785/fast] 错误 2
+
+
+Determining if the function thr_yield exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec277726573/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec277726573.dir/build.make CMakeFiles/cmTryCompileExec277726573.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec277726573.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=thr_yield   -o CMakeFiles/cmTryCompileExec277726573.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec277726573
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec277726573.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=thr_yield    CMakeFiles/cmTryCompileExec277726573.dir/CheckFunctionExists.c.o  -o cmTryCompileExec277726573 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec277726573.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘thr_yield’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec277726573] 错误 1
+gmake: *** [cmTryCompileExec277726573/fast] 错误 2
+
+
+Determining if the function ntohll exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1376422977/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1376422977.dir/build.make CMakeFiles/cmTryCompileExec1376422977.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1376422977.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=ntohll   -o CMakeFiles/cmTryCompileExec1376422977.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1376422977
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1376422977.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=ntohll    CMakeFiles/cmTryCompileExec1376422977.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1376422977 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec1376422977.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘ntohll’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec1376422977] 错误 1
+gmake: *** [cmTryCompileExec1376422977/fast] 错误 2
+
+
+Determining if the function kqueue exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2954948401/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2954948401.dir/build.make CMakeFiles/cmTryCompileExec2954948401.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2954948401.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=kqueue   -o CMakeFiles/cmTryCompileExec2954948401.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2954948401
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2954948401.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=kqueue    CMakeFiles/cmTryCompileExec2954948401.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2954948401 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec2954948401.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘kqueue’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec2954948401] 错误 1
+gmake: *** [cmTryCompileExec2954948401/fast] 错误 2
+
+
+Determining if the function kqueue exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1237686393/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1237686393.dir/build.make CMakeFiles/cmTryCompileExec1237686393.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1237686393.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=kqueue   -o CMakeFiles/cmTryCompileExec1237686393.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1237686393
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1237686393.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=kqueue    CMakeFiles/cmTryCompileExec1237686393.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1237686393 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec1237686393.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘kqueue’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec1237686393] 错误 1
+gmake: *** [cmTryCompileExec1237686393/fast] 错误 2
+
+
+Determining if files ia64intrin.h exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4171514819/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4171514819.dir/build.make CMakeFiles/cmTryCompileExec4171514819.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4171514819.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec4171514819.dir/CheckIncludeFiles.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: 致命错误：ia64intrin.h：没有那个文件或目录
+ #include <ia64intrin.h>
+                        ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec4171514819.dir/CheckIncludeFiles.c.o] 错误 1
+gmake: *** [cmTryCompileExec4171514819/fast] 错误 2
+
+Source:
+/* */
+#include <ia64intrin.h>
+
+
+int main(){return 0;}
+
+Determining if the function read_real_time exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec865161287/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec865161287.dir/build.make CMakeFiles/cmTryCompileExec865161287.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec865161287.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=read_real_time   -o CMakeFiles/cmTryCompileExec865161287.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec865161287
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec865161287.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=read_real_time    CMakeFiles/cmTryCompileExec865161287.dir/CheckFunctionExists.c.o  -o cmTryCompileExec865161287 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec865161287.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘read_real_time’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec865161287] 错误 1
+gmake: *** [cmTryCompileExec865161287/fast] 错误 2
+
+
+Determining if the function rdtscll exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec569173578/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec569173578.dir/build.make CMakeFiles/cmTryCompileExec569173578.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec569173578.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=rdtscll   -o CMakeFiles/cmTryCompileExec569173578.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec569173578
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec569173578.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=rdtscll    CMakeFiles/cmTryCompileExec569173578.dir/CheckFunctionExists.c.o  -o cmTryCompileExec569173578 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec569173578.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘rdtscll’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec569173578] 错误 1
+gmake: *** [cmTryCompileExec569173578/fast] 错误 2
+
+
+Determining if the TIOCSTAT exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4033561996/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4033561996.dir/build.make CMakeFiles/cmTryCompileExec4033561996.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4033561996.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec4033561996.dir/CheckSymbolExists.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c: 在函数‘main’中:
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: 错误：‘TIOCSTAT’未声明(在此函数内第一次使用)
+   return ((int*)(&TIOCSTAT))[argc];
+                   ^
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: 附注：每个未声明的标识符在其出现的函数内只报告一次
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:13:1: 警告：在有返回值的函数中，控制流程到达函数尾 [-Wreturn-type]
+ }
+ ^
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec4033561996.dir/CheckSymbolExists.c.o] 错误 1
+gmake: *** [cmTryCompileExec4033561996/fast] 错误 2
+
+File /opt/inception-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCSTAT
+  return ((int*)(&TIOCSTAT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the FIONREAD exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec955306786/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec955306786.dir/build.make CMakeFiles/cmTryCompileExec955306786.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec955306786.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec955306786.dir/CheckSymbolExists.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:23: 致命错误：sys/filio.h：没有那个文件或目录
+ #include <sys/filio.h>
+                       ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec955306786.dir/CheckSymbolExists.c.o] 错误 1
+gmake: *** [cmTryCompileExec955306786/fast] 错误 2
+
+File /opt/inception-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/filio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FIONREAD
+  return ((int*)(&FIONREAD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec58235824/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec58235824.dir/build.make CMakeFiles/cmTryCompileExec58235824.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec58235824.dir/TestEndianess.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec58235824.dir/TestEndianess.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec58235824
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec58235824.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec58235824.dir/TestEndianess.c.o  -o cmTryCompileExec58235824 -rdynamic 
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uchar failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3863453883/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3863453883.dir/build.make CMakeFiles/cmTryCompileExec3863453883.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3863453883.dir/SIZEOF_UCHAR.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec3863453883.dir/SIZEOF_UCHAR.c.o   -c /opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:19:22: 错误：‘uchar’未声明(不在函数内)
+ #define SIZE (sizeof(uchar))
+                      ^
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:21:12: 附注：in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3863453883.dir/SIZEOF_UCHAR.c.o] 错误 1
+gmake: *** [cmTryCompileExec3863453883/fast] 错误 2
+
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uchar))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int8 failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2601663443/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2601663443.dir/build.make CMakeFiles/cmTryCompileExec2601663443.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2601663443.dir/SIZEOF_INT8.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec2601663443.dir/SIZEOF_INT8.c.o   -c /opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:19:22: 错误：‘int8’未声明(不在函数内)
+ #define SIZE (sizeof(int8))
+                      ^
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:21:12: 附注：in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2601663443.dir/SIZEOF_INT8.c.o] 错误 1
+gmake: *** [cmTryCompileExec2601663443/fast] 错误 2
+
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint8 failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1136053321/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1136053321.dir/build.make CMakeFiles/cmTryCompileExec1136053321.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1136053321.dir/SIZEOF_UINT8.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec1136053321.dir/SIZEOF_UINT8.c.o   -c /opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:19:22: 错误：‘uint8’未声明(不在函数内)
+ #define SIZE (sizeof(uint8))
+                      ^
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:21:12: 附注：in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1136053321.dir/SIZEOF_UINT8.c.o] 错误 1
+gmake: *** [cmTryCompileExec1136053321/fast] 错误 2
+
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int16 failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec482748415/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec482748415.dir/build.make CMakeFiles/cmTryCompileExec482748415.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec482748415.dir/SIZEOF_INT16.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec482748415.dir/SIZEOF_INT16.c.o   -c /opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:19:22: 错误：‘int16’未声明(不在函数内)
+ #define SIZE (sizeof(int16))
+                      ^
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:21:12: 附注：in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec482748415.dir/SIZEOF_INT16.c.o] 错误 1
+gmake: *** [cmTryCompileExec482748415/fast] 错误 2
+
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint16 failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1345917487/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1345917487.dir/build.make CMakeFiles/cmTryCompileExec1345917487.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1345917487.dir/SIZEOF_UINT16.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec1345917487.dir/SIZEOF_UINT16.c.o   -c /opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:19:22: 错误：‘uint16’未声明(不在函数内)
+ #define SIZE (sizeof(uint16))
+                      ^
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:21:12: 附注：in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1345917487.dir/SIZEOF_UINT16.c.o] 错误 1
+gmake: *** [cmTryCompileExec1345917487/fast] 错误 2
+
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int32 failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2108984848/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2108984848.dir/build.make CMakeFiles/cmTryCompileExec2108984848.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2108984848.dir/SIZEOF_INT32.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec2108984848.dir/SIZEOF_INT32.c.o   -c /opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:19:22: 错误：‘int32’未声明(不在函数内)
+ #define SIZE (sizeof(int32))
+                      ^
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:21:12: 附注：in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2108984848.dir/SIZEOF_INT32.c.o] 错误 1
+gmake: *** [cmTryCompileExec2108984848/fast] 错误 2
+
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint32 failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2582744078/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2582744078.dir/build.make CMakeFiles/cmTryCompileExec2582744078.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2582744078.dir/SIZEOF_UINT32.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec2582744078.dir/SIZEOF_UINT32.c.o   -c /opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:19:22: 错误：‘uint32’未声明(不在函数内)
+ #define SIZE (sizeof(uint32))
+                      ^
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:21:12: 附注：in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2582744078.dir/SIZEOF_UINT32.c.o] 错误 1
+gmake: *** [cmTryCompileExec2582744078/fast] 错误 2
+
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int64 failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1458164780/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1458164780.dir/build.make CMakeFiles/cmTryCompileExec1458164780.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1458164780.dir/SIZEOF_INT64.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec1458164780.dir/SIZEOF_INT64.c.o   -c /opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:19:22: 错误：‘int64’未声明(不在函数内)
+ #define SIZE (sizeof(int64))
+                      ^
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:21:12: 附注：in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1458164780.dir/SIZEOF_INT64.c.o] 错误 1
+gmake: *** [cmTryCompileExec1458164780/fast] 错误 2
+
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint64 failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2424958619/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2424958619.dir/build.make CMakeFiles/cmTryCompileExec2424958619.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2424958619.dir/SIZEOF_UINT64.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec2424958619.dir/SIZEOF_UINT64.c.o   -c /opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:19:22: 错误：‘uint64’未声明(不在函数内)
+ #define SIZE (sizeof(uint64))
+                      ^
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:21:12: 附注：in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2424958619.dir/SIZEOF_UINT64.c.o] 错误 1
+gmake: *** [cmTryCompileExec2424958619/fast] 错误 2
+
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of bool failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec10738982/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec10738982.dir/build.make CMakeFiles/cmTryCompileExec10738982.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec10738982.dir/SIZEOF_BOOL.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec10738982.dir/SIZEOF_BOOL.c.o   -c /opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:18:22: 错误：‘bool’未声明(不在函数内)
+ #define SIZE (sizeof(bool))
+                      ^
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:20:12: 附注：in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec10738982.dir/SIZEOF_BOOL.c.o] 错误 1
+gmake: *** [cmTryCompileExec10738982/fast] 错误 2
+
+/opt/inception-master/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(bool))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test TIME_T_UNSIGNED failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2614217237/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2614217237.dir/build.make CMakeFiles/cmTryCompileExec2614217237.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2614217237.dir/src.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -DTIME_T_UNSIGNED   -o CMakeFiles/cmTryCompileExec2614217237.dir/src.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/src.c
+/opt/inception-master/CMakeFiles/CMakeTmp/src.c: 在函数‘main’中:
+/opt/inception-master/CMakeFiles/CMakeTmp/src.c:4:16: 错误：‘time_t’未声明(在此函数内第一次使用)
+   int array[(((time_t)-1) > 0) ? 1 : -1];
+                ^
+/opt/inception-master/CMakeFiles/CMakeTmp/src.c:4:16: 附注：每个未声明的标识符在其出现的函数内只报告一次
+/opt/inception-master/CMakeFiles/CMakeTmp/src.c:4:7: 警告：未使用的变量‘array’ [-Wunused-variable]
+   int array[(((time_t)-1) > 0) ? 1 : -1];
+       ^
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2614217237.dir/src.c.o] 错误 1
+gmake: *** [cmTryCompileExec2614217237/fast] 错误 2
+
+Source file was:
+
+int main()
+{
+  int array[(((time_t)-1) > 0) ? 1 : -1];
+  return 0;
+}
+Performing C SOURCE FILE Test HAVE_TIMESPEC_TS_SEC failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec79491870/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec79491870.dir/build.make CMakeFiles/cmTryCompileExec79491870.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec79491870.dir/src.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -DHAVE_TIMESPEC_TS_SEC   -o CMakeFiles/cmTryCompileExec79491870.dir/src.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/src.c
+/opt/inception-master/CMakeFiles/CMakeTmp/src.c: 在函数‘main’中:
+/opt/inception-master/CMakeFiles/CMakeTmp/src.c:7:10: 错误：‘struct timespec’没有名为‘ts_sec’的成员
+   abstime.ts_sec = time(NULL)+1;
+          ^
+/opt/inception-master/CMakeFiles/CMakeTmp/src.c:8:10: 错误：‘struct timespec’没有名为‘ts_nsec’的成员
+   abstime.ts_nsec = 0;
+          ^
+/opt/inception-master/CMakeFiles/CMakeTmp/src.c:6:19: 警告：变量‘abstime’被设定但未被使用 [-Wunused-but-set-variable]
+   struct timespec abstime;
+                   ^
+/opt/inception-master/CMakeFiles/CMakeTmp/src.c:9:1: 警告：在有返回值的函数中，控制流程到达函数尾 [-Wreturn-type]
+ }
+ ^
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec79491870.dir/src.c.o] 错误 1
+gmake: *** [cmTryCompileExec79491870/fast] 错误 2
+
+Source file was:
+
+#include <pthread.h>
+
+int main(int ac, char **av)
+{
+  struct timespec abstime;
+  abstime.ts_sec = time(NULL)+1;
+  abstime.ts_nsec = 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_SOLARIS_STYLE_GETHOST failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2812696868/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2812696868.dir/build.make CMakeFiles/cmTryCompileExec2812696868.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2812696868.dir/src.cxx.o
+/usr/bin/c++   -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -Wno-unused-parameter -DHAVE_SOLARIS_STYLE_GETHOST   -o CMakeFiles/cmTryCompileExec2812696868.dir/src.cxx.o -c /opt/inception-master/CMakeFiles/CMakeTmp/src.cxx
+/opt/inception-master/CMakeFiles/CMakeTmp/src.cxx: 在函数‘int main()’中:
+/opt/inception-master/CMakeFiles/CMakeTmp/src.cxx:17:66: 错误：不能将‘int gethostbyaddr_r(const void*, __socklen_t, int, hostent*, char*, size_t, hostent**, int*)’的实参‘7’从‘int*’转换到‘hostent**’
+           0, 0, (struct hostent *) 0, (char *) NULL,  0, (int *)0);
+                                                                  ^
+/opt/inception-master/CMakeFiles/CMakeTmp/src.cxx:15:24: 警告：未使用的变量‘foo’ [-Wunused-variable]
+        struct hostent *foo =
+                        ^
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2812696868.dir/src.cxx.o] 错误 1
+gmake: *** [cmTryCompileExec2812696868/fast] 错误 2
+
+Source file was:
+
+    #undef inline
+    #if !defined(SCO) && !defined(__osf__) && !defined(_REENTRANT)
+    #define _REENTRANT
+    #endif
+    #include <pthread.h>
+    #include <sys/types.h>
+    #include <sys/socket.h>
+    #include <netinet/in.h>
+    #include <arpa/inet.h>
+    #include <netdb.h>
+    int main()
+    {
+
+       struct hostent *foo =
+       gethostbyaddr_r((const char *) 0,
+          0, 0, (struct hostent *) 0, (char *) NULL,  0, (int *)0);
+       return 0;
+    }
+  
+Determining if the include file netinet/in6.h exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3643168065/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3643168065.dir/build.make CMakeFiles/cmTryCompileExec3643168065.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3643168065.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec3643168065.dir/CheckIncludeFile.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: 致命错误：netinet/in6.h：没有那个文件或目录
+ #include <netinet/in6.h>
+                         ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3643168065.dir/CheckIncludeFile.c.o] 错误 1
+gmake: *** [cmTryCompileExec3643168065/fast] 错误 2
+
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN_SIN_LEN failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec414904123/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec414904123.dir/build.make CMakeFiles/cmTryCompileExec414904123.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec414904123.dir/src.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -DHAVE_SOCKADDR_IN_SIN_LEN   -o CMakeFiles/cmTryCompileExec414904123.dir/src.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/src.c
+/opt/inception-master/CMakeFiles/CMakeTmp/src.c: 在函数‘main’中:
+/opt/inception-master/CMakeFiles/CMakeTmp/src.c:9:7: 错误：‘struct sockaddr_in’没有名为‘sin_len’的成员
+    tmp->sin_len;
+       ^
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec414904123.dir/src.c.o] 错误 1
+gmake: *** [cmTryCompileExec414904123/fast] 错误 2
+
+Source file was:
+
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
+
+int main()
+{
+   struct sockaddr_in* tmp;
+   tmp->sin_len;
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_LEN failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4208445212/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4208445212.dir/build.make CMakeFiles/cmTryCompileExec4208445212.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4208445212.dir/src.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -DHAVE_SOCKADDR_IN6_SIN6_LEN   -o CMakeFiles/cmTryCompileExec4208445212.dir/src.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/src.c
+/opt/inception-master/CMakeFiles/CMakeTmp/src.c: 在函数‘main’中:
+/opt/inception-master/CMakeFiles/CMakeTmp/src.c:9:7: 错误：‘struct sockaddr_in6’没有名为‘sin6_len’的成员
+    tmp->sin6_len;
+       ^
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec4208445212.dir/src.c.o] 错误 1
+gmake: *** [cmTryCompileExec4208445212/fast] 错误 2
+
+Source file was:
+
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
+
+int main()
+{
+   struct sockaddr_in6* tmp;
+   tmp->sin6_len;
+  return 0;
+}
+
+Performing C SOURCE FILE Test STRUCT_DIRENT_HAS_D_NAMLEN failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2588703500/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2588703500.dir/build.make CMakeFiles/cmTryCompileExec2588703500.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2588703500.dir/src.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -DSTRUCT_DIRENT_HAS_D_NAMLEN   -o CMakeFiles/cmTryCompileExec2588703500.dir/src.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/src.c
+/opt/inception-master/CMakeFiles/CMakeTmp/src.c: 在函数‘main’中:
+/opt/inception-master/CMakeFiles/CMakeTmp/src.c:7:7: 错误：‘struct dirent’没有名为‘d_namlen’的成员
+    tmp->d_namlen;
+       ^
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2588703500.dir/src.c.o] 错误 1
+gmake: *** [cmTryCompileExec2588703500/fast] 错误 2
+
+Source file was:
+
+#include <dirent.h>
+
+int main()
+{
+   struct dirent* tmp;
+   tmp->d_namlen;
+  return 0;
+}
+
+Determining if the function mbscmp exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec636028635/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec636028635.dir/build.make CMakeFiles/cmTryCompileExec636028635.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec636028635.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -DCHECK_FUNCTION_EXISTS=mbscmp   -o CMakeFiles/cmTryCompileExec636028635.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec636028635
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec636028635.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=mbscmp    CMakeFiles/cmTryCompileExec636028635.dir/CheckFunctionExists.c.o  -o cmTryCompileExec636028635 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTryCompileExec636028635.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘mbscmp’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec636028635] 错误 1
+gmake: *** [cmTryCompileExec636028635/fast] 错误 2
+
+
+Determining if the function strvis exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3226211411/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3226211411.dir/build.make CMakeFiles/cmTryCompileExec3226211411.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3226211411.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -DCHECK_FUNCTION_EXISTS=strvis   -o CMakeFiles/cmTryCompileExec3226211411.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3226211411
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3226211411.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=strvis    CMakeFiles/cmTryCompileExec3226211411.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3226211411 -rdynamic 
+CMakeFiles/cmTryCompileExec3226211411.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘strvis’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec3226211411] 错误 1
+gmake: *** [cmTryCompileExec3226211411/fast] 错误 2
+
+
+Determining if the function strunvis exists failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1623336852/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1623336852.dir/build.make CMakeFiles/cmTryCompileExec1623336852.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1623336852.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -DCHECK_FUNCTION_EXISTS=strunvis   -o CMakeFiles/cmTryCompileExec1623336852.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1623336852
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1623336852.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=strunvis    CMakeFiles/cmTryCompileExec1623336852.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1623336852 -rdynamic 
+CMakeFiles/cmTryCompileExec1623336852.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘strunvis’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [cmTryCompileExec1623336852] 错误 1
+gmake: *** [cmTryCompileExec1623336852/fast] 错误 2
+
+
+Determining if the SHA512_DIGEST_LENGTH exist failed with the following output:
+Change Dir: /opt/inception-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1539823720/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1539823720.dir/build.make CMakeFiles/cmTryCompileExec1539823720.dir/build
+gmake[1]: 进入目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /opt/inception-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1539823720.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec1539823720.dir/CheckSymbolExists.c.o   -c /opt/inception-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/opt/inception-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:25: 致命错误：openssl/sha.h：没有那个文件或目录
+ #include <openssl/sha.h>
+                         ^
+编译中断。
+gmake[1]: 离开目录“/opt/inception-master/CMakeFiles/CMakeTmp”
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1539823720.dir/CheckSymbolExists.c.o] 错误 1
+gmake: *** [cmTryCompileExec1539823720/fast] 错误 2
+
+File /opt/inception-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <openssl/sha.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SHA512_DIGEST_LENGTH
+  return ((int*)(&SHA512_DIGEST_LENGTH))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

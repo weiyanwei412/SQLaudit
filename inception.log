@@ -1,0 +1,201 @@
+Inception, Version: Inception2.1.50 (Source distribution). started with:
+Tcp port: 6669  Unix socket: /data/temp/inc.socket
+Time                 Id Command    Argument
+171117 16:45:22	    1 Query	inception get variables
+
+171117 19:35:47	    2 Query	select @@version_comment limit 1
+
+		    2 Query	select USER()
+
+171117 19:35:57	    2 Query	inception get variables
+
+171117 19:52:57	    3 Query	set autocommit=0
+
+		    3 Query	/*--user=root;--password=letian318;--host=192.168.56.88;--enable-check=1;--port=3306;*/              inception_magic_start;              create database test ;
+create table t1(id,name);              inception_magic_commit
+
+171117 19:52:59	    4 Query	set autocommit=0
+
+		    4 Query	/*--user=root;--password=letian318;--host=192.168.56.88;--enable-check=1;--port=3306;*/              inception_magic_start;              create database test ;
+create table t1(id,name);              inception_magic_commit
+
+171117 19:53:02	    5 Query	set autocommit=0
+
+		    5 Query	/*--user=root;--password=letian318;--host=192.168.56.88;--enable-check=1;--port=3306;*/              inception_magic_start;              create database test ;
+create table t1(id,name);              inception_magic_commit
+
+171117 19:53:48	    6 Query	set autocommit=0
+
+		    6 Query	/*--user=root;--password=letian318;--host=192.168.56.88;--enable-check=1;--port=3306;*/              inception_magic_start;              use sql_check ;
+create table t1(id,name);              inception_magic_commit
+
+171117 19:53:49	    7 Query	set autocommit=0
+
+		    7 Query	/*--user=root;--password=letian318;--host=192.168.56.88;--enable-check=1;--port=3306;*/              inception_magic_start;              use sql_check ;
+create table t1(id,name);              inception_magic_commit
+
+171117 19:55:26	    8 Query	set autocommit=0
+
+		    8 Query	/*--user=root;--password=letian318;--host=192.168.56.88;--enable-check=1;--port=3306;*/              inception_magic_start;              use sql_check;create table t(id int);              inception_magic_commit
+
+171117 19:56:36	    9 Query	set autocommit=0
+
+		    9 Query	/*--user=root;--password=letian318;--host=192.168.56.88;--enable-check=1;--port=3306;*/              inception_magic_start;              use sql_check;create table t1(id init);              inception_magic_commit
+
+171117 19:56:48	   10 Query	set autocommit=0
+
+		   10 Query	/*--user=root;--password=letian318;--host=192.168.56.88;--enable-check=1;--port=3306;*/              inception_magic_start;              use sql_check;create table t1(id init);              inception_magic_commit
+
+171117 19:57:27	   11 Query	set autocommit=0
+
+		   11 Query	/*--user=root;--password=letian318;--host=192.168.56.88;--enable-check=1;--port=3306;*/              inception_magic_start;              use mysql;select host,user from user;              inception_magic_commit
+
+171117 20:03:25	   12 Query	set autocommit=0
+
+		   12 Query	/*--user=root;--password=letian318;--host=192.168.56.88;--enable-check=1;--port=3306;*/              inception_magic_start;              use sql_check;create table t(id int(5),name varcha(10));              inception_magic_commit
+
+171117 20:03:29	   13 Query	set autocommit=0
+
+		   13 Query	/*--user=root;--password=letian318;--host=192.168.56.88;--enable-check=1;--port=3306;*/              inception_magic_start;              use sql_check;create table t(id int(5),name varcha(10));              inception_magic_commit
+
+171117 20:05:55	   14 Query	set autocommit=0
+
+		   14 Query	/*--user=root;--password=letian318;--host=192.168.56.88;--enable-check=1;--port=3306;*/              inception_magic_start;              use zx_sms;
+CREATE TABLE `sms_change_channel_task` (
+  `task_id` bigint(20) NOT NULL,
+  `mobile_pa_id` int(11) DEFAULT NULL,
+  `unicom_pa_id` int(11) DEFAULT NULL,
+  `telcom_pa_id` int(11) DEFAULT NULL,
+  `mobile_callmdn` varchar(20) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `telcom_callmdn` varchar(20) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `unicom_callmdn` varchar(20) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `sp_id` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;              inception_magic_commit
+
+171117 20:05:56	   15 Query	set autocommit=0
+
+		   15 Query	/*--user=root;--password=letian318;--host=192.168.56.88;--enable-check=1;--port=3306;*/              inception_magic_start;              use zx_sms;
+CREATE TABLE `sms_change_channel_task` (
+  `task_id` bigint(20) NOT NULL,
+  `mobile_pa_id` int(11) DEFAULT NULL,
+  `unicom_pa_id` int(11) DEFAULT NULL,
+  `telcom_pa_id` int(11) DEFAULT NULL,
+  `mobile_callmdn` varchar(20) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `telcom_callmdn` varchar(20) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `unicom_callmdn` varchar(20) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `sp_id` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;              inception_magic_commit
+
+171117 20:06:59	   16 Query	set autocommit=0
+
+		   16 Query	/*--user=root;--password=letian318;--host=192.168.56.88;--enable-check=1;--port=3306;*/              inception_magic_start;              use zx_sms;
+CREATE TABLE `sms_change_channel_task` (
+  `task_id` bigint(20) NOT NULL,
+  `mobile_pa_id` int(11) DEFAULT NULL,
+  `unicom_pa_id` int(11) DEFAULT NULL,
+  `telcom_pa_id` int(11) DEFAULT NULL,
+  `mobile_callmdn` varchar(20) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `telcom_callmdn` varchar(20) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `unicom_callmdn` varchar(20) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `sp_id` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;              inception_magic_commit
+
+171117 20:10:22	   17 Query	set autocommit=0
+
+		   17 Query	/*--user=root;--password=letian318;--host=192.168.56.88;--enable-check=1;--port=3306;*/              inception_magic_start;              use zx_sms;
+CREATE TABLE `tm_mdn_attr` (
+  `TM_MDN_ATTR_ID` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `PREFIX` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `PROVINCE_NAME` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `PROVINCE_ID` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `CITY_NAME` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `CITY_ID` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `NET_WORK` varchar(11) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `REMARK` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `SOURCE` varchar(11) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `CREATE_TIME` datetime DEFAULT NULL,
+  PRIMARY KEY (`TM_MDN_ATTR_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;              inception_magic_commit
+
+171117 20:22:26	   18 Query	set autocommit=0
+
+		   18 Query	/*--user=root;--password=letian318;--host=192.168.56.88;--enable-check=1;--port=3306;*/              inception_magic_start;              use zx_sms;
+CREATE TABLE `tm_mdn_attr` (
+  `TM_MDN_ATTR_ID` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT -1,
+  `PREFIX` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `PROVINCE_NAME` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `PROVINCE_ID` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `CITY_NAME` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `CITY_ID` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `NET_WORK` varchar(11) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `REMARK` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `SOURCE` varchar(11) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `CREATE_TIME` TIMESTAMP DEFAULT  CURRENT_TIMESTAMP,
+  PRIMARY KEY (`TM_MDN_ATTR_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;              inception_magic_commit
+
+171117 20:29:54	   19 Query	set autocommit=0
+
+		   19 Query	/*--user=root; --password=letian318; --host=192.168.56.88; --enable-execute;--port=3306; --enable-ignore-warnings;--enable-split;*/             inception_magic_start;             use zx_sms;
+CREATE TABLE `tm_mdn_attr` (
+  `TM_MDN_ATTR_ID` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT -1,
+  `PREFIX` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `PROVINCE_NAME` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `PROVINCE_ID` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `CITY_NAME` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `CITY_ID` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `NET_WORK` varchar(11) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `REMARK` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `SOURCE` varchar(11) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `CREATE_TIME` TIMESTAMP DEFAULT  CURRENT_TIMESTAMP,
+  PRIMARY KEY (`TM_MDN_ATTR_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;             inception_magic_commit
+
+		   20 Query	set autocommit=0
+
+		   20 Query	/*--user=root;--password=letian318;--host=192.168.56.88;--enable-execute;--port=3306; --enable-ignore-warnings;--enable-remote-backup;*/                    inception_magic_start;                    use zx_sms;
+CREATE TABLE `tm_mdn_attr` (
+  `TM_MDN_ATTR_ID` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT -1,
+  `PREFIX` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `PROVINCE_NAME` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `PROVINCE_ID` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `CITY_NAME` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `CITY_ID` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `NET_WORK` varchar(11) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `REMARK` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `SOURCE` varchar(11) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 0,
+  `CREATE_TIME` TIMESTAMP DEFAULT  CURRENT_TIMESTAMP,
+  PRIMARY KEY (`TM_MDN_ATTR_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+                    inception_magic_commit
+
+171118  4:24:06	   21 Query	set autocommit=0
+
+		   21 Query	/*--user=root;--password=letian318;--host=192.168.56.88;--enable-check=1;--port=3306;*/              inception_magic_start;              use zx_sms;
+CREATE TABLE `book_score_az` (
+  `bookid` bigint(30) NOT NULL COMMENT '书籍id',
+  `bookno` bigint(20) DEFAULT NULL COMMENT '书籍编码',
+  `newcid` bigint(20) DEFAULT NULL COMMENT '书籍类别id',
+  `daytime` datetime DEFAULT NULL COMMENT '按天时间',
+  `sales_amount` decimal(10,3) DEFAULT NULL COMMENT '每天销售金额',
+  `browse_times` int(10) DEFAULT NULL COMMENT '每天浏览次数',
+  `etl_date` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP COMMENT 'etl同步时间',
+  KEY `idx_daytime` (`daytime`),
+  KEY `idx_bookid` (`bookid`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;              inception_magic_commit
+
+171118  4:24:07	   22 Query	set autocommit=0
+
+		   22 Query	/*--user=root;--password=letian318;--host=192.168.56.88;--enable-check=1;--port=3306;*/              inception_magic_start;              use zx_sms;
+CREATE TABLE `book_score_az` (
+  `bookid` bigint(30) NOT NULL COMMENT '书籍id',
+  `bookno` bigint(20) DEFAULT NULL COMMENT '书籍编码',
+  `newcid` bigint(20) DEFAULT NULL COMMENT '书籍类别id',
+  `daytime` datetime DEFAULT NULL COMMENT '按天时间',
+  `sales_amount` decimal(10,3) DEFAULT NULL COMMENT '每天销售金额',
+  `browse_times` int(10) DEFAULT NULL COMMENT '每天浏览次数',
+  `etl_date` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP COMMENT 'etl同步时间',
+  KEY `idx_daytime` (`daytime`),
+  KEY `idx_bookid` (`bookid`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;              inception_magic_commit
+

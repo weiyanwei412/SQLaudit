@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -Wno-unused-parameter    CMakeFiles/mysql.dir/completion_hash.cc.o CMakeFiles/mysql.dir/mysql.cc.o CMakeFiles/mysql.dir/readline.cc.o CMakeFiles/mysql.dir/sql_string.cc.o  -o mysql  -lpthread ../libmysql/libmysqlclient.a ../cmd-line-utils/libedit/libedit.a -lm -ldl -lpthread -lcurses 

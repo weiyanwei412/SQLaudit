@@ -1,0 +1,2 @@
+/usr/bin/ar cr libmysqlclient.a  CMakeFiles/mysqlclient.dir/mysqlclient_depends.c.o
+/usr/bin/ranlib libmysqlclient.a

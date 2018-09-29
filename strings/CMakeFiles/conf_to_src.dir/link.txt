@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wall    CMakeFiles/conf_to_src.dir/conf_to_src.c.o  -o conf_to_src  -lpthread libstrings.a -lpthread 
